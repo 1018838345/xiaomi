@@ -1,0 +1,1098 @@
+
+@import url(basis.css);
+body{list-style: none;
+    padding: 0;
+    margin: 0;
+}
+input{
+    border: 1px solid #ccc;
+}
+html,body,h1,h2,h3,h4,h5,h6,p,pre,ul,ol,li,form,input,textarea{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.topBar{
+    height: 40px;
+    background: #333333;
+}
+.content{
+    width: 1226px;
+    height: 100%;
+    margin:0 auto;
+}
+.barNav{
+    float: left;
+    /*width: 667px;*/
+    height: 100%;
+    /*background: red;*/
+    font-size: 12px;
+    color: #b0b0b0;
+    line-height: 40px;
+}
+.barNav a,.barInfo a,.barCart a{
+    font-size: 12px;
+    color: #b0b0b0;
+}
+
+.barNav a:hover,.barInfo a:hover{
+    color: #fff;
+}
+.barCart{
+    float:right ;
+    width: 120px;
+    height: 100%;
+    background: #424242;
+    text-align: center;
+    line-height: 40px;
+
+}
+
+ .iconfont a{
+    color: #b0b0b0;
+}
+.barCart a:hover{
+    color:#ff6700
+}
+.iconfont a:hover{
+    color:#ff6700 ;
+}
+
+.barInfo{
+    float: right;
+/*    width: 142px;*/
+    height: 100%;
+    /*background: yellow;*/
+    line-height: 40px;
+    font-size: 12px;
+    color: #b0b0b0;
+    padding: 0 10px;
+}
+/*top*/
+
+
+
+.head{
+    height: 100px;
+}
+.headBar{
+    width: 1226px;
+    height: 100px;
+    margin: 0 auto;
+    /*background: #16b0dc;*/
+}
+.headPic{
+    float: left;
+    width: 234px;
+    height: 100px;
+    /*background: #76838f;*/
+    position: relative;
+    top:25px;
+
+}
+.headPic img{
+    height: 55px;
+    width: 55px;
+}
+
+.headContent{
+    float: left;
+    height: 100px;
+    width: 670px;
+    /*background: black;*/
+    line-height: 100px;
+}
+.headSearch{
+    float: right;
+    width: 250px;
+    height:50px;
+    margin-top: 25px;
+    /*background: #333;*/
+}
+.headTxt{
+    float: left;
+    width: 200px;
+    height: 50px;
+    box-sizing: border-box;
+    /*background: #16b0dc;*/
+}
+ .headCheck{
+     float: right;
+    height: 50px;
+    width: 50px;
+    /*background:blue;*/
+     border: 1px solid #ccc;
+     text-align: center;
+     line-height: 50px;
+     box-sizing: border-box;
+}
+ .headCheck .iconfont{
+     font-size: 20px;
+ }
+.headSearch:hover{
+    border:1px solid #333;
+}
+.headCheck:hover{
+     background: #ff6700;
+ }
+
+.headContent a{
+    font-size: 16px;
+    color: #333;
+    margin:0 10px;
+    /*line-height: 100px;*/
+}
+.headContent a:hover{
+    color: #ff6700;
+}
+/*head*/
+
+
+
+
+
+.banner{
+    height: 460px;
+    background: #b0b0b0;
+    position:relative;
+}
+.imgBox{
+    height: 100%;
+    width: 100%;
+
+}
+.imgBox li,.imgBox li a,.imgBox li a img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.imgBox li{
+    position: absolute;
+    left: 0;
+    top:0;
+}
+ul.aslide{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 234px;
+    height: 420px;
+    background: rgba(0,0,0,0.5);
+    padding:20px 0;
+
+}
+.aslideList a{
+    display: block;
+    height: 42px;
+    width: 174px;
+    padding: 0 30px;
+    line-height: 42px;
+    font-size: 14px;
+    color: #fff;
+}
+.aslideList a:hover{
+    background: #ff6700;
+}
+.aslideList a i{
+    float:right;
+}
+.banner .left{
+    width: 40px;
+    height: 70px;
+    position:absolute;
+    left: 234px;
+    top:200px;
+    z-index: 9999;
+
+}
+.banner .right{
+    width: 40px;
+    height: 70px;
+    position: absolute;
+    top: 200px;
+    left:1186px;
+    z-index: 9999;
+
+}
+.banner .left:hover,.banner .right:hover{
+    background: rgba(0,0,0,0.5);
+}
+.banner .left i,.banner .right i{
+    text-align: center;
+    line-height: 70px;
+    display: inline-block;
+    color: #b0b0b0;
+}
+.banner .left .iconfont,.banner .right .iconfont{
+    font-size: 35px;
+}/*banner*/
+
+.fixed{
+    width:80px;
+    height: 320px;
+    position: fixed;
+    right: 0;
+    top: 200px;
+    text-align: center;
+    background:#fff;
+    line-height: 1.5;
+
+}
+.fixed .iconfont{
+    font-size: 30px;
+}
+.fixedBox {
+    border: 1px solid #b0b0b0;
+    height: 80px;
+    width: 80px;
+    color: #424242;
+    /*padding: 10px 0;*/
+
+}
+.fixedBox  a{
+    font-size: 14px;
+    color: #b0b0b0;
+    font-weight: 200;
+}
+.fixedBox  a:hover{
+    color: #ff6700;
+}
+/*fixed*/
+
+.subRow{
+    width: 1227px;
+    height: 170px;
+    /*background: #ff4110;*/
+    margin: 15px auto;
+    box-sizing: border-box;
+    /*margin-top: 15px;*/
+}
+.subList{
+    float: left;
+    width: 234px;
+    height: 170px;
+    background: #333;
+}
+.showMain{
+    width: 1226px;
+    height: 100%;
+    margin: 0 auto;
+}
+.showBuy{
+    display: inline-block;
+    width: 228px;
+    height: 164px;
+    float: left;
+    padding: 3px;
+    background: #5f5750;
+    margin-right:14px;
+}
+.buyPhoto{
+    width: 70px;
+    height: 82px;
+    padding: 0 3px;
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    line-height: 24px;
+}
+.buyPhoto a{
+    text-decoration: none;
+    color: #b0b0b0;
+}
+.buyPhoto i{
+    display: block;
+    height: 24px;
+    font-size: 24px;
+    margin-top: 15px;
+}
+.buyPhoto a:hover{
+    color: #FFFFFF;
+}
+
+.subList .leftTop{
+    display: inline-block;
+    padding: 0 3px;
+    width: 72px;
+    height: 85px;
+    background: #16b0dc;
+    float: left;
+    /*border: 1px solid #000000;*/
+}
+.subRow .picture{
+    display: inline-block;
+    /*background: orange;*/
+    float:left;
+    width:993px;
+    height: 170px;
+}
+.subRow .picture span img{
+    float: left;
+    margin-left: 14px;
+    /*display: inline-block;*/
+    height: 170px;
+    width: 317px;
+    /*background: blue;*/
+}
+/*subRow*/
+
+.flash{
+    height: 400px;
+
+}
+.flashBar{
+    margin: 15px auto;
+    width: 1226px;
+    height: 400px;
+    /*background: #76838f;*/
+}
+.flashHead{
+    width: 100%;
+    height: 60px;
+    /*background: #16b0dc;*/
+}
+.flashHead h2{
+    display: inline-block;
+    margin: 0;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+}
+.flashArrow{
+    height: 25px;
+    width:61px;
+    float:right;
+    border: 1px solid #b0b0b0;
+    margin-top: 15px;
+}
+.arrow{
+    width:30px ;
+    height: 25px;
+    display: inline-block;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    line-height: 25px;
+}
+.arrow a:hover{
+    color: #ff6700;
+}
+.flashPic{
+    width: 100%;
+    height: auto;
+    /*background: #ff6700;*/
+}
+.flashLeft{
+    float: left;
+    width: 234px;
+    height: 340px;
+    /*background: #76838f;*/
+
+}
+.flashLeft img{
+    height: 100%;
+    width: 100%;
+}
+.flashBg{
+    float: right;
+    margin-left:14px ;
+    width: 234px;
+    height: 280px;
+    background:#fafafa;
+    text-align: center;
+    padding: 30px 0;
+
+}
+.flashBg img{
+    width: 160px;
+    height: 160px;
+    margin-bottom: 30px;
+}
+.bgList{
+    font:14px/1.5 "Microsoft YaHei",sans-serif;
+    font-weight: 100;
+}
+
+/*flash*/
+
+
+.blackShark,.miTv,.Amiro,.year,.Air,.sound,.itemBox{
+    margin: 30px auto 0;
+    height: 120px;
+    width: 1226px;
+}
+.blackShark img,.miTv img,.Amiro img,.year img,.Air img,.sound img,.itemBox img{
+    width: 100%;
+    height: 100%;
+}
+/*blackShark*/
+
+.homePage{
+    height: 6850px;
+    width: 100%;
+    background:#f5f5f5;
+}
+
+
+.phone{
+    width: 100%;
+    height: 674px;
+
+}
+.phone .phoneBox{
+
+    width: 1226px;
+    height: 674px;
+    /*background: #16b0dc;*/
+    margin:15px auto;
+}
+.phoneBox .title{
+    width: 100%;
+    height: 60px;
+    /*background: #ff6700;*/
+}
+.phoneBox .left h2{
+    float: left;
+    width: 200px;
+    height: 30px;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 60px;
+    color: #333;
+}
+.phoneBox .phoneCheck{
+    display: inline-block;
+    float: right;
+    width: 80px;
+    height: 30px;
+    /*background: blue;*/
+    margin-top: 20px;
+    font-size:16px;
+}
+.phoneCheck a{
+    line-height: 1.5;
+}
+.phoneCheck a:hover{
+    color: #ff6700;
+}
+.phonePic{
+    width: 1226px;
+    height: 614px;
+    /*background: orange;*/
+}
+.phonePic .phoneLeft{
+    display: inline-block;
+    width: 234px;
+    height: 614px;
+    /*background: #16b0dc;*/
+}
+.phonePic .phoneLeft img{
+    width: 100%;
+    height: 100%;
+}
+.phonePic .phoneRight{
+    float: right;
+    width: 992px;
+    height: 614px;
+    /*background: #76838f;*/
+    margin: 0;
+}
+.phonePic .item:hover,.phoneLeft:hover{
+    transform: translateY(-5px);
+    box-shadow:0 0 20px #c9c9c9;
+}
+.item .itemTop {
+    width: 64px;
+    height: 24px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 24px;
+    font-size: 12px;
+    background: #83c44e;
+    color: #ffffff;
+}
+.item .itemTop1 {
+    width: 64px;
+    height: 24px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 24px;
+    font-size: 12px;
+    background: #e53935;
+    color: #ffffff;
+}
+.phonePic .phoneRight .item{
+    float: left;
+    display: inline-block;
+    margin: 0 0 14px 14px;
+    width: 234px;
+    height: 300px;
+    background: #fff;
+    text-align: center;
+    /*padding-bottom: 20px ;*/
+
+}
+.phoneRight img{
+    width: 160px;
+    height: 160px;
+}
+
+/*phone*/
+
+
+
+.homeElectric{
+    width: 100%;
+    height: 674px;
+}
+.homeBox{
+    width: 1226px;
+    height: 674px;
+    /*background: blue;*/
+    margin: 15px auto;
+}
+.homeHead{
+    width: 1226px;
+    height: 60px;
+    /*background: #16b0dc;*/
+}
+.homeHead h2{
+    float: left;
+    width: 200px;
+    height: 30px;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 60px;
+    color: #333;
+}
+.homeContent{
+    float: right;
+    width: 350px;
+    height: 30px;
+    /*background: green;*/
+    margin-top: 15px;
+}
+.homeContent a{
+    float: right;
+    margin-left: 25px;
+}
+.homeContent a:hover{
+    color: #ff6700;
+    border-bottom: 2px solid #ff6700;
+}
+.homeItem{
+    width: 1226px;
+    height: 614px;
+    /*background: #76838f;*/
+
+}
+.exposure{
+    height: 614px;
+    width: 234px;
+    /*background: red;*/
+    float: left;
+}
+.homeWater{
+    width: 234px;
+    height: 300px;
+    /*background: #ff6700;*/
+    margin-bottom: 14px;
+}
+.homeRobot{
+    width: 234px;
+    height: 300px;
+    /*background: #FFFFFF;*/
+}
+.homeRobot img,.homeWater img{
+    width: 234px;
+    height: 300px;
+}
+.homeRobot:hover,.homeWater:hover,.item:hover{
+    transform: translateY(-5px);
+    box-shadow:0 0 20px #c9c9c9;
+}
+.homeList{
+    float: right;
+    height: 614px;
+    width: 992px;
+    /*background: gold;*/
+}
+.homeList{
+    float: right;
+    width: 992px;
+    height: 614px;
+    /*background:#ff4110;*/
+    margin: 0;
+
+}
+.homeList .item{
+    margin: 0 30px;
+}
+.homeRight .item{
+    float: left;
+    display: inline-block;
+    margin: 0 0 14px 14px;
+    width: 234px;
+    height: 300px;
+    background: #fff;
+    text-align: center;
+}
+.homeRight img{
+    width: 160px;
+    height: 160px;
+}
+.homeLast{
+
+    padding:0 ;
+}
+.homeLast img{
+    width: 234px;
+    height: 143px;
+}
+
+
+.listBox{
+    width: 1226px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.itemCon{
+    width: 234px;
+    height: 100%;
+    background: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.itemCon:hover{
+    transform: translateY(-5px);
+    box-shadow:0 0 20px #c9c9c9;
+}
+.itemContent{
+    width: 100%;
+    height: 100%;
+    margin: 30px auto 0;
+
+}
+.itemCon img{
+    width: 140px;
+    height: 140px;
+    margin-bottom: 15px;
+}
+.item .small{
+    width: 100%;
+    height: 143px;
+    margin-bottom: 14px;
+    /*background: #16b0dc;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.small .smallBox{
+    height: 80px;
+    width: 180px;
+    /*background: red;*/
+    display: flex;
+    justify-content: space-between;
+}
+.smallBox .left{
+    width: 80px;
+    height: 100%;
+    /*background: #368;*/
+}
+.smallBox .right{
+    width: 80px;
+    height: 80px;
+    background: green;
+}
+.smallBox .right img{
+    width: 100%;
+    height: 100%;
+}
+/*homeElectric*/
+
+
+
+
+
+.product{
+    width: 1226px;
+    height: 475px;
+    margin: 15px auto;
+    /*background: #76838f;*/
+}
+.productHead{
+    width: 100%;
+    height: 60px;
+    /*background: yellow;*/
+}
+.productHead h2{
+    font:300 22px/60px "Microsoft YaHei",sans-serif;
+}
+.productBox{
+    width: 100%;
+    height: 415px;
+    /*background: #1b6d85;*/
+    display: flex;
+    justify-content: space-between;
+}
+.productBox .item{
+    width: 296px;
+    height: 100%;
+    background: #fff;
+    font:400 14px/24px "Microsoft YaHei",sans-serif ;
+}
+.productBox .item img{
+    width: 100%;
+    height: 220px;
+
+}
+.productBox .item .text{
+    margin: 20px auto;
+    width: 240px;
+    height: 72px;
+    /*background: #449d44;*/
+
+}
+.productBox .item .author{
+    height: 18px;
+    margin: 0 28px 8px;
+    padding: 0 10px 0 0;
+    font-size: 12px;
+    color: #b0b0b0;
+
+}
+.productBox .item .title{
+    font-size: 14px;
+    font-weight: 400;
+    float: left;
+    margin: 0 28px;
+}
+.productBox .sep {
+    color: #e0e0e0;
+    margin:0 -10px 0 10px;
+}
+.productBox .item .price{
+    /*font:14px/1.5 "Microsoft YaHei",sans-serif;*/
+    color: #ff6700;
+}
+/*product*/
+
+.contentBox{
+    width: 100%;
+    height: 415px;
+     /*background: #1b6d85;*/
+    display: flex;
+    justify-content: space-between;
+}
+.contentBox .item{
+    width: 296px;
+    height: 100%;
+    background: #fff;
+    text-align: center;
+    padding-top: 50px;
+    box-sizing: border-box;
+    border-top:1px solid #ffac13;
+    position: relative;
+}
+.contentBox .arrowLeft{
+    width: 20px;
+    height: 68px;
+    line-height: 68px;
+    position: absolute;
+    left: 0;
+    top: 160px;
+    background: rgba(66,66,66,0.2);
+    opacity: 0;
+    transition: all .6s;
+}
+.contentBox .arrowRight{
+    width: 20px;
+    height: 68px;
+    line-height: 68px;
+    position: absolute;
+    left: 276px;
+    top: 160px;
+    background-color: rgba(66,66,66,0.2);
+    opacity: 0;
+    transition: all .6s;
+}
+.contentBox .item:hover .arrowRight,.contentBox .item:hover .arrowLeft{
+    opacity: 1;
+}
+.contentBox .arrowLeft i,.contentBox .arrowRight i{
+    color: #fff;
+}
+.contentBox .item .title{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffac13;
+}
+.contentBox .item .name{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 2;
+}
+.price {
+    height: 20px;
+    text-align: center;
+}
+.contentBox .desc a{
+    display: block;
+    height: 40px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #b0b0b0;
+    margin-bottom: 10px;
+}
+.contentBox .item img{
+    margin-top: 20px;
+}
+
+
+
+.video{
+    width: 1226px;
+    height: 345px;
+    margin: 15px auto;
+    /*background: #333;*/
+}
+.videoHead{
+    width: 100%;
+    height: 60px;
+}
+.videoHead h2{
+    font:300 22px/60px "Microsoft YaHei",sans-serif;
+}
+.videoBox{
+    width: 100%;
+    height: 285px;
+    /*background: #1b6d85;*/
+    display: flex;
+    justify-content: space-between;
+}
+.videoBox .item{
+    width: 296px;
+    height: 285px;
+    background: #fff;
+    text-align: center;
+    position: relative;
+}
+.videoBox img{
+    width: 100%;
+    height: 185px;
+    margin-bottom: 20px;
+}
+.video .item:hover i{
+    color: #ff6700;;
+}
+.video .item i {
+    position: absolute;
+    left: 15px;
+    top: 150px;
+    z-index: 1000;
+    font-size:20px;
+    background: #fff;
+    color: rgba(0,0,0,0.8);
+    border: 1.5px solid #fff;
+    border-radius: 6px;
+}
+.videoBox .title{
+    font: 14px/1.5 "Microsoft YaHei",sans-serif;
+    margin: 5px 0;
+}
+.videoBox  a:hover{
+    color:#ff6700;
+}
+.videoBox .text{
+    font: 12px/1.5 "Microsoft YaHei",sans-serif;
+    color: #b0b0b0;
+}
+
+
+.footer{
+    width: 100%;
+    height:280px;
+    background: #fff;
+}
+.footerService{
+    width: 1226px;
+    height: 80px;
+    /*background: #449d44;*/
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.footerService ul{
+    text-align: center;
+    width: 100%;
+    height: 30px;
+
+    /*line-height: 80px;*/
+    /*background: red;*/
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footerService li{
+    width: 240px;
+    height: 30px;
+    border-right: 1px solid #ccc;
+    /*background: black;*/
+}
+.footerService li i{
+    font-size: 24px;
+}
+.footerService li a{
+    font:300 16px/1.5 "Microsoft YaHei",sans-serif;
+}
+.footerService a:hover{
+    color: #ff6700;
+}
+.footerBottom {
+    width: 1226px;
+    height: 210px;
+    margin: 0 auto;
+}
+
+
+.footerBottom .bt {
+    margin: 36px 100px 0 0;
+    float: left;
+}
+
+.footerBottom .zx {
+    font-size: 14px;
+    color: #424242;
+    line-height: 30px;
+    padding: 10px 0;
+}
+
+.footerBottom a {
+    font-size: 12px;
+    color: #757575;
+    line-height: 2;
+}
+
+.footerBottom a:hover {
+    color: #ff6700;
+}
+
+.footerBottom .fotse {
+    float: right;
+    width: 252px;
+    height: 112px;
+    margin-top: 40px;
+    font-size: 12px;
+}
+
+.fotse .phone1 {
+    font-size: 22px;
+    color: #ff6700;
+}
+
+.fotse a {
+    color: #ff6700;
+    border: 1px solid #ff6700;
+    padding: 5px 20px;
+    margin-left: 70px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.fotse a:hover {
+    color: #ffffff;
+    background: #ff6700;
+}
+
+.fotse p {
+    text-align: center;
+}
+
+/*siteFooter*/
+
+
+
+.footerInfo{
+    width: 1226px;
+    height: 230px;
+    background: #8a6d3b;
+    margin: 0 auto;
+}
+
+
+
+/*siteFooter*/
+.siteInfo {
+    height: 232px;
+    background: #f5f5f5;
+    padding-top: 30px;
+    font-size: 12px;
+}
+
+.container {
+    width: 1226px;
+    height: 172px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.container .log img {
+    float: left;
+    width: 57px;
+    height: 57px;
+}
+
+.siteInfo .infoText {
+    float: left;
+    padding-left: 10px;
+}
+
+.siteInfo a:hover, .siteInfo .text a:hover {
+    color: #ff6700;
+}
+
+.siteInfo .text {
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    line-height: 20px;
+    color: #b0b0b0;
+}
+
+.siteInfo .text a {
+    color: #b0b0b0;
+}
+
+.container .tu img {
+    width: 84px;
+    height: 28px;
+}
+
+.siteInfo .slogan {
+    width: 267px;
+    height: 19px;
+    background: #f5f5f5;
+    margin: 0 auto;
+}
+
+.slogan p {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+}
+
+/*siteInfo*/
+
+
+
+
+
+
+
+
