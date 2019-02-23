@@ -229,6 +229,7 @@ ul.aslide{
 }
 .aslideList a i{
     float:right;
+    font-size: 15px;
 }
 .banner .left{
     width: 40px;
@@ -237,7 +238,6 @@ ul.aslide{
     left: 234px;
     top:200px;
     z-index: 9999;
-
 }
 .banner .right{
     width: 40px;
@@ -250,6 +250,7 @@ ul.aslide{
 }
 .banner .left:hover,.banner .right:hover{
     background: rgba(0,0,0,0.5);
+    color:#fff;
 }
 .banner .left i,.banner .right i{
     text-align: center;
@@ -259,7 +260,10 @@ ul.aslide{
 .banner .left .iconfont,.banner .right .iconfont{
     line-height: 70px;
     font-size: 35px;
-}/*banner*/
+}
+
+
+/*banner*/
 
 .fixed{
     width:80px;
@@ -270,7 +274,6 @@ ul.aslide{
     text-align: center;
     background:#fff;
     line-height: 1.5;
-
 }
 .fixed .iconfont{
     font-size: 30px;
@@ -281,7 +284,6 @@ ul.aslide{
     width: 80px;
     color: #424242;
     /*padding: 10px 0;*/
-
 }
 .fixedBox  a{
     font-size: 14px;
@@ -291,7 +293,36 @@ ul.aslide{
 .fixedBox  a:hover{
     color: #ff6700;
 }
+.ewm{
+    width: 120px;
+    height: 160px;
+    position: absolute;
+    right: 80px;
+    top: 0;
+    display: none;
+    background: #fff;
+    z-index: 999999999;
+}
+.ewm .ewmm{
+    width: 120px;
+    height: 160px;
+    /*background: #3f5eff;*/
+}
+.ewm>.ewmm>img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.ewm>.ewmm>p{
+    color:#76838f;
+    font-size: 14px;
+
+
+}
 /*fixed*/
+
+
+
 
 .subRow{
     width: 1227px;
